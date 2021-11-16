@@ -1,0 +1,14 @@
+#include ‹stdio.h>
+
+int main()
+{
+int num1, num2;
+printf("Enter two numbers");
+scanf("%d%d",&num1,&mum2);// num1=24 num2=10
+
+num1=num1+num2; //num1=34
+num2=num1-num2; //num2=24
+num1=num1-num2; //numl=10
+printf("The swapped values are: %d %d",num1,num2);
+return 0
+}
